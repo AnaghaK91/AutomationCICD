@@ -20,6 +20,8 @@ public class StandAloneTest {
 
 	public static void main(String[] args) {
 
+// New comments are added here for CICD demo purpose
+
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage(	).deleteAllCookies();
